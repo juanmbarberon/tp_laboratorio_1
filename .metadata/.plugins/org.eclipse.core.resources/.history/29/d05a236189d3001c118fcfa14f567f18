@@ -1,0 +1,80 @@
+#include "Input.h"
+
+
+float IngresarFlotante(char mensaje[])
+{
+	float numeroIngresado;
+	printf("%s", mensaje);
+	scanf("%f", &numeroIngresado);
+
+	return numeroIngresado;
+}
+int IngresarEntero(char mensaje[])
+{
+	int numeroIngresado;
+	printf("%s", mensaje);
+	scanf("%d", &numeroIngresado);
+
+	return numeroIngresado;
+}
+
+int enteroValidado ( char msj[], char msjError[], int min , int max){
+
+    int valor;
+    printf("%s", msj);
+    valor=IngresarEntero(" ");
+    while(valor < min || valor > max ){
+        printf("%s", msjError);
+        valor=IngresarEntero("\nIngrese nuevamente: ");
+    }
+    return valor;
+}
+
+float flotanteValidado ( char msj[], char msjError[], float min , float max){
+
+    float valor;
+    printf("%s", msj);
+    valor=IngresarFlotante(" ");
+    while(valor < min || valor > max ){
+        printf("%s", msjError);
+        valor=IngresarFlotante("\nIngrese nuevamente: ");
+    }
+    return valor;
+}
+
+char IngreseCaracter(char mensaje[])
+{
+	char caracterIngresado;
+	printf("%s", mensaje);
+	fflush(stdin);
+	scanf("%c", &caracterIngresado);
+
+	return caracterIngresado;
+}
+
+int getString(char cadena[], char mensaje[], int tam)
+{
+	char auxiliarString[1000];
+	int retorno;
+	retorno = 0;
+	if (cadena != NULL && mensaje != NULL)
+	{
+		retorno = 1;
+		printf("%s",mensaje);
+		fflush(stdin);
+		scanf("%[^\n]", auxiliarString);
+
+		while (strlen(auxiliarString) > tam)
+		{
+			printf("Reingrese: ");
+			fflush(stdin);
+			scanf("%[^\n]", auxiliarString);
+		}
+		strcpy(cadena, auxiliarString);
+	}
+	return retorno;
+}
+
+
+
+

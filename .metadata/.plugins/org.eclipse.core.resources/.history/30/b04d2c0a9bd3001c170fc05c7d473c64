@@ -1,0 +1,56 @@
+/*
+ * Pasajero.h
+ *
+ *  Created on: 11 may 2022
+ *      Author: Compumar
+ */
+
+
+
+#ifndef PASAJERO_H_
+#define PASAJERO_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+#define BEBE 1
+#define MENOR 2
+#define ADULTO 3
+
+#define ACTIVO 1
+#define ATERRIZADO 2
+
+
+
+struct{
+    int id;
+    char name[51];
+    char lastName[51];
+    float price;
+    int typePassenger;
+    char flyCode[10];
+    int statusFligth;
+    int isEmpty;
+}typedef ePasajero;
+
+void Mostrar(ePasajero Listado[], int tam);
+int addPassengers(ePasajero* Listado, int tam, int id, char name[], char lastName[], float price, int typePassenger, char flyCode[], int statusFligth);
+int initPassengers(ePasajero* lista, int tam);
+int BuscarPrimerEspacioLibre(ePasajero lista[], int tam);
+void MostrarListado(ePasajero lista[], int tam);
+int darDeBaja(ePasajero lista[], int tam);
+int buscarIndexPorId(ePasajero pArray[], int len, int id);
+int modificarPasajero(ePasajero lista[], int tam);
+int incrementarId(int valor);
+int buscarIndexPorId(ePasajero pArray[], int len, int id);
+int modificarPasajero(ePasajero lista[], int tam);
+int validar(int valorUno, int valorDos, int valor, char msjError[]);
+void OrdenarPorCodigoYEstado(ePasajero lista[], int tam, int orden);
+void CalculosPasajes(ePasajero lista[], int tam);
+void OrdenarListadoPorApellidoYTipo(ePasajero lista[], int tam, int orden);
+
+
+
+#endif /* PASAJERO_H_ */

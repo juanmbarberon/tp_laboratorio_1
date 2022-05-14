@@ -1,0 +1,32 @@
+/*
+ * Pasajero.h
+ *
+ *  Created on: 11 may 2022
+ *      Author: Compumar
+ */
+
+
+
+#ifndef PASAJERO_H_
+#define PASAJERO_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "arrayPassenger.h"
+
+
+
+void Mostrar(ePasajero Listado[], int tam);
+int BuscarPrimerEspacioLibre(ePasajero lista[], int tam);
+
+int incrementarId(int valor);
+int buscarIndexPorId(ePasajero pArray[], int len, int id);
+int validar(int valorUno, int valorDos, int valor, char msjError[]);
+
+void CalculosPasajes(ePasajero lista[], int tam);
+
+
+
+#endif /* PASAJERO_H_ */

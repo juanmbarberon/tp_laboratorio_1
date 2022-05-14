@@ -1,0 +1,23 @@
+/*
+ * arrayPassenger.h
+ *
+ *  Created on: 14 may 2022
+ *      Author: Compumar
+ */
+
+#ifndef ARRAYPASSENGER_H_
+#define ARRAYPASSENGER_H_
+#include "Pasajero.h"
+
+int addPassengers(ePasajero* list, int tam, int id, char name[], char lastName[], float price, int typePassenger, char flyCode[], int statusFligth);
+int initPassengers(ePasajero* list, int tam);
+int sortPassengersByCode(ePasajero* list, int tam, int orden);
+int sortPassenger(ePasajero* list, int tam, int orden);
+int printPassenger(ePasajero* list, int tam);
+int removePassenger(ePasajero* list, int tam);
+int findPassengerById(ePasajero* list, int len, int id);
+int modificarPasajero(ePasajero lista[], int tam);
+
+
+
+#endif /* ARRAYPASSENGER_H_ */

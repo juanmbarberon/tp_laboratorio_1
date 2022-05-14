@@ -1,0 +1,94 @@
+/*
+ ============================================================================
+ Name        : TP2.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include "Input.h"
+#include "Pasajero.h"
+
+int main(void) {
+	setbuf(stdout, NULL);
+	    int id=0;
+	    char nombre[51];
+	    char apellido[51];
+	    float precio=0;
+	    int tipo=0;
+	    int estado=0;
+	    char codigo[10];
+	    int opcionInformeA;
+	    int opcionInformeC;
+	    int opcion=0;
+	    char informe;
+	    int contadorSalida=0;
+	    //ePasajero Lista[3];
+	    ePasajero Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+	                        {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+	                        {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+
+	    //initPassengers(Lista, 3);
+	    do{
+	    printf("\n++++++++++++++++++++++ MENU ++++++++++++++++++++++\n");
+	    printf("\n1. Altas\n");
+	    printf("2. Modificar\n");
+	    printf("3. Baja\n");
+	    printf("4. Informar\n");
+	    printf("5. Salir \n");
+
+
+	    opcion=enteroValidado("Elija una opcion: ","La opcion debe ser del 1 al 5: ", 1,5);
+
+	    switch(opcion){
+	    case 1:
+	    if(addPassengers(Lista, 3, id, nombre, apellido, precio, tipo, codigo, estado) != 1){
+	        //if(retornoFuncion != -1){
+	        	puts("El pasajero se cargo exitosamente\n");
+	        }else{
+	        	puts("El pasajero no pudo cargarse\n");
+	        }
+	    break;
+	    case 2:
+	    modificarPasajero(Lista,3);
+	    break;
+	    case 3:
+	    removePassenger(Lista,3);
+	    break;
+	    case 4:
+	    printPassenger(Lista, 3);
+	    int contador = 0;
+	        do{
+
+	        printf("\na. Listado de los pasajeros ordenados alfabéticamente por Apellido y Tipo de pasajero.\n");
+	        printf("b. Total y promedio de los precios de los pasajes, y cuántos pasajeros superan el precio promedio.\n");
+	        printf("c. Listado de los pasajeros por Código de vuelo y estados de vuelos ‘ACTIVO’.\n");
+
+	        informe=IngreseCaracter("\nIngrese opcion de informe: ");
+
+	        switch(informe){
+	        case 'a':
+	        sortPassenger(Lista,3,opcionInformeA);
+	        contador++;
+	        break;
+	        case 'b':
+	        CalculosPasajes(Lista,3);
+	        contador++;
+	        break;
+	        case 'c':
+	        sortPassengersByCode(Lista,3,opcionInformeC);
+	        contador++;
+	        break;
+	        }
+	        }while(contador!=1);
+	    break;
+	    case 5:
+	    contadorSalida++;
+
+	    }
+	}while(contadorSalida!=1);
+
+	return EXIT_SUCCESS;
+}

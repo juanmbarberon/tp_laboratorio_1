@@ -1,0 +1,1895 @@
+11:54:02 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:54:09 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:54:17 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:54:36 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:54:37 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+11:57:20 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+In file included from ..\src\Pasajero.c:8:0:
+..\src\pasajero.h: In function 'initPassengers':
+..\src\pasajero.h:47:5: error: redefinition of parameter 'buscarIndexPorId'
+ int buscarIndexPorId(ePasajero pArray[], int len, int id);
+     ^~~~~~~~~~~~~~~~
+..\src\pasajero.h:44:5: note: previous definition of 'buscarIndexPorId' was here
+ int buscarIndexPorId(ePasajero pArray[], int len, int id);
+     ^~~~~~~~~~~~~~~~
+..\src\pasajero.h:48:5: error: redefinition of parameter 'modificarPasajero'
+ int modificarPasajero(ePasajero lista[], int tam);
+     ^~~~~~~~~~~~~~~~~
+..\src\pasajero.h:45:5: note: previous definition of 'modificarPasajero' was here
+ int modificarPasajero(ePasajero lista[], int tam);
+     ^~~~~~~~~~~~~~~~~
+..\src\Pasajero.c:11:43: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ void Mostrar(ePasajero Listado[], int tam){
+                                           ^
+..\src\Pasajero.c:43:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:56:153: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ int IngresarPasajro(ePasajero* Listado, int tam, int id, char name[], char lastName[], float price, int typePassenger, char flyCode[], int statusFligth){
+                                                                                                                                                         ^
+..\src\Pasajero.c:78:57: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ int BuscarPrimerEspacioLibre(ePasajero lista[], int tam){
+                                                         ^
+..\src\Pasajero.c:98:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:119:42: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ int darDeBaja(ePasajero lista[], int tam){
+                                          ^
+..\src\Pasajero.c:146:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:231:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:247:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:259:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:273:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:343:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+..\src\Pasajero.c:374:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+In file included from ..\src\Pasajero.c:8:0:
+..\src\pasajero.h:40:6: error: old-style parameter declarations in prototyped function definition
+ void initPassengers(ePasajero* lista, int tam)
+      ^~~~~~~~~~~~~~
+..\src\Pasajero.c:439:1: error: expected '{' at end of input
+ }
+ ^
+11:59:27 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+..\src\Pasajero.c: In function 'initPassengers':
+..\src\Pasajero.c:55:9: error: redeclaration of 'retorno' with no linkage
+     int retorno;
+         ^~~~~~~
+..\src\Pasajero.c:44:6: note: previous definition of 'retorno' was here
+  int retorno = -1;
+      ^~~~~~~
+..\src\Pasajero.c:55:9: warning: unused variable 'retorno' [-Wunused-variable]
+     int retorno;
+         ^~~~~~~
+..\src\Pasajero.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+12:00:16 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+12:29:29 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+12:32:18 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+12:34:16 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:57:6: warning: implicit declaration of function 'darDeBaja' [-Wimplicit-function-declaration]
+      darDeBaja(Lista,3);
+      ^~~~~~~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+src\TP2.o: In function `main':
+C:\Users\Compumar\Tps_Laboratorio_1\TP2\Debug/../src/TP2.c:57: undefined reference to `darDeBaja'
+collect2.exe: error: ld returned 1 exit status
+12:34:34 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+src\TP2.o: In function `main':
+C:\Users\Compumar\Tps_Laboratorio_1\TP2\Debug/../src/TP2.c:57: undefined reference to `darDeBaja'
+collect2.exe: error: ld returned 1 exit status
+12:35:08 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+12:36:26 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:23:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:72:10: warning: implicit declaration of function 'OrdenarListadoPorApellidoYTipo' [-Wimplicit-function-declaration]
+          OrdenarListadoPorApellidoYTipo(Lista,3,1);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+src\TP2.o: In function `main':
+C:\Users\Compumar\Tps_Laboratorio_1\TP2\Debug/../src/TP2.c:72: undefined reference to `OrdenarListadoPorApellidoYTipo'
+collect2.exe: error: ld returned 1 exit status
+13:23:30 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+13:26:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:60:6: warning: implicit declaration of function 'MostrarListado' [-Wimplicit-function-declaration]
+      MostrarListado(Lista, 3);
+      ^~~~~~~~~~~~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+src\TP2.o: In function `main':
+C:\Users\Compumar\Tps_Laboratorio_1\TP2\Debug/../src/TP2.c:60: undefined reference to `MostrarListado'
+collect2.exe: error: ld returned 1 exit status
+13:27:17 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:29:10 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:31:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+..\src\Pasajero.c:373:5: error: conflicting types for 'sortPassengersByCode'
+ int sortPassengersByCode(ePasajero* list, int tam, int orden)
+     ^~~~~~~~~~~~~~~~~~~~
+In file included from ..\src\Pasajero.c:8:0:
+..\src\pasajero.h:50:6: note: previous declaration of 'sortPassengersByCode' was here
+ void sortPassengersByCode(ePasajero lista[], int tam, int orden);
+      ^~~~~~~~~~~~~~~~~~~~
+13:32:04 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:34:09 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+..\src\Pasajero.c:272:5: error: conflicting types for 'sortPassenger'
+ int sortPassenger(ePasajero* list, int tam, int orden)
+     ^~~~~~~~~~~~~
+In file included from ..\src\Pasajero.c:8:0:
+..\src\pasajero.h:52:6: note: previous declaration of 'sortPassenger' was here
+ void sortPassenger(ePasajero* list, int tam, int orden);
+      ^~~~~~~~~~~~~
+13:35:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+..\src\Pasajero.c:97:6: error: conflicting types for 'printPassenger'
+ void printPassenger(ePasajero* list, int tam)
+      ^~~~~~~~~~~~~~
+In file included from ..\src\Pasajero.c:8:0:
+..\src\pasajero.h:43:5: note: previous declaration of 'printPassenger' was here
+ int printPassenger(ePasajero* list, int tam);
+     ^~~~~~~~~~~~~~
+13:37:20 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+13:39:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:39:08 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:40:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+13:42:15 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:42:17 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:42:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:42:48 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:43:24 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:43:26 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:43:46 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:43:49 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:44:07 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:44:09 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:46:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:46:59 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:53:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:53:55 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:56:13 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:73:10: warning: 'opcionInformeA' may be used uninitialized in this function [-Wmaybe-uninitialized]
+          sortPassenger(Lista,3,opcionInformeA);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\TP2.c:81:10: warning: 'opcionInformeC' may be used uninitialized in this function [-Wmaybe-uninitialized]
+          sortPassengersByCode(Lista,3,opcionInformeC);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+13:56:52 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+13:58:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:59:01 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+14:02:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+14:04:17 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+14:06:39 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:06:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+14:07:41 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:07:46 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+14:11:59 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:12:02 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+14:12:35 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:12:48 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+14:13:27 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:13:30 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+14:14:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" 
+Info: Nothing to build for TP2
+14:19:49 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:12:19: error: unknown type name 'ePasajero'
+ int addPassengers(ePasajero* list, int tam, int id, char name[], char lastName[], float price, int typePassenger, char flyCode[], int statusFligth);
+                   ^~~~~~~~~
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:13:20: error: unknown type name 'ePasajero'
+ int initPassengers(ePasajero* list, int tam);
+                    ^~~~~~~~~
+..\src\arrayPassenger.h:14:26: error: unknown type name 'ePasajero'
+ int sortPassengersByCode(ePasajero* list, int tam, int orden);
+                          ^~~~~~~~~
+..\src\arrayPassenger.h:15:19: error: unknown type name 'ePasajero'
+ int sortPassenger(ePasajero* list, int tam, int orden);
+                   ^~~~~~~~~
+..\src\arrayPassenger.h:16:20: error: unknown type name 'ePasajero'
+ int printPassenger(ePasajero* list, int tam);
+                    ^~~~~~~~~
+..\src\arrayPassenger.h:17:21: error: unknown type name 'ePasajero'
+ int removePassenger(ePasajero* list, int tam);
+                     ^~~~~~~~~
+..\src\arrayPassenger.h:18:23: error: unknown type name 'ePasajero'
+ int findPassengerById(ePasajero* list, int len, int id);
+                       ^~~~~~~~~
+..\src\arrayPassenger.c: In function 'addPassengers':
+..\src\arrayPassenger.c:28:9: warning: implicit declaration of function 'getString' [-Wimplicit-function-declaration]
+         getString(list[index].name,"Ingrese nombre: ",51);
+         ^~~~~~~~~
+..\src\arrayPassenger.c:30:27: warning: implicit declaration of function 'flotanteValidado' [-Wimplicit-function-declaration]
+         list[index].price=flotanteValidado("Ingrese precio: ", "El precio debe ser mayor a 0", 1, 999999);
+                           ^~~~~~~~~~~~~~~~
+..\src\arrayPassenger.c:31:37: warning: implicit declaration of function 'enteroValidado' [-Wimplicit-function-declaration]
+         list[index].typePassenger = enteroValidado("Ingresar tipo de pasajero: ","Error!!! \nEl pasajero puede ser 1=BEBE 2=MENOR 3=ADULTO: ", 1 , 3);
+                                     ^~~~~~~~~~~~~~
+..\src\arrayPassenger.c:32:9: warning: implicit declaration of function 'getStringAlfaNumerico' [-Wimplicit-function-declaration]
+         getStringAlfaNumerico(list[index].flyCode,"Ingrese codigo: ", 10);
+         ^~~~~~~~~~~~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'removePassenger':
+..\src\arrayPassenger.c:71:26: warning: implicit declaration of function 'IngresarEntero' [-Wimplicit-function-declaration]
+  idPasajeroSelccionado = IngresarEntero("\nIngrese el Id del pasajero a borrar: ");
+                          ^~~~~~~~~~~~~~
+14:20:31 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+..\src\Pasajero.c: In function 'modificarPasajero':
+..\src\Pasajero.c:77:5: warning: implicit declaration of function 'printPassenger' [-Wimplicit-function-declaration]
+     printPassenger(lista, tam);
+     ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'addPassengers':
+..\src\arrayPassenger.c:28:9: warning: implicit declaration of function 'getString' [-Wimplicit-function-declaration]
+         getString(list[index].name,"Ingrese nombre: ",51);
+         ^~~~~~~~~
+..\src\arrayPassenger.c:30:27: warning: implicit declaration of function 'flotanteValidado' [-Wimplicit-function-declaration]
+         list[index].price=flotanteValidado("Ingrese precio: ", "El precio debe ser mayor a 0", 1, 999999);
+                           ^~~~~~~~~~~~~~~~
+..\src\arrayPassenger.c:31:37: warning: implicit declaration of function 'enteroValidado' [-Wimplicit-function-declaration]
+         list[index].typePassenger = enteroValidado("Ingresar tipo de pasajero: ","Error!!! \nEl pasajero puede ser 1=BEBE 2=MENOR 3=ADULTO: ", 1 , 3);
+                                     ^~~~~~~~~~~~~~
+..\src\arrayPassenger.c:32:9: warning: implicit declaration of function 'getStringAlfaNumerico' [-Wimplicit-function-declaration]
+         getStringAlfaNumerico(list[index].flyCode,"Ingrese codigo: ", 10);
+         ^~~~~~~~~~~~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'removePassenger':
+..\src\arrayPassenger.c:71:26: warning: implicit declaration of function 'IngresarEntero' [-Wimplicit-function-declaration]
+  idPasajeroSelccionado = IngresarEntero("\nIngrese el Id del pasajero a borrar: ");
+                          ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c:13:26: fatal error: arrayPassenger: No such file or directory
+ #include "arrayPassenger"
+                          ^
+compilation terminated.
+14:22:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'addPassengers':
+..\src\arrayPassenger.c:28:9: warning: implicit declaration of function 'getString' [-Wimplicit-function-declaration]
+         getString(list[index].name,"Ingrese nombre: ",51);
+         ^~~~~~~~~
+..\src\arrayPassenger.c:30:27: warning: implicit declaration of function 'flotanteValidado' [-Wimplicit-function-declaration]
+         list[index].price=flotanteValidado("Ingrese precio: ", "El precio debe ser mayor a 0", 1, 999999);
+                           ^~~~~~~~~~~~~~~~
+..\src\arrayPassenger.c:31:37: warning: implicit declaration of function 'enteroValidado' [-Wimplicit-function-declaration]
+         list[index].typePassenger = enteroValidado("Ingresar tipo de pasajero: ","Error!!! \nEl pasajero puede ser 1=BEBE 2=MENOR 3=ADULTO: ", 1 , 3);
+                                     ^~~~~~~~~~~~~~
+..\src\arrayPassenger.c:32:9: warning: implicit declaration of function 'getStringAlfaNumerico' [-Wimplicit-function-declaration]
+         getStringAlfaNumerico(list[index].flyCode,"Ingrese codigo: ", 10);
+         ^~~~~~~~~~~~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'removePassenger':
+..\src\arrayPassenger.c:71:26: warning: implicit declaration of function 'IngresarEntero' [-Wimplicit-function-declaration]
+  idPasajeroSelccionado = IngresarEntero("\nIngrese el Id del pasajero a borrar: ");
+                          ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c:13:26: fatal error: arrayPassenger: No such file or directory
+ #include "arrayPassenger"
+                          ^
+compilation terminated.
+14:22:53 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c:13:26: fatal error: arrayPassenger: No such file or directory
+ #include "arrayPassenger"
+                          ^
+compilation terminated.
+14:23:30 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+14:37:49 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:46:23: error: 'Lista' undeclared (first use in this function)
+      if(addPassengers(Lista, 3, id, nombre, apellido, precio, tipo, codigo, estado) != -1){
+                       ^~~~~
+..\src\TP2.c:46:23: note: each undeclared identifier is reported only once for each function it appears in
+14:38:00 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:46:23: error: 'Lista' undeclared (first use in this function)
+      if(addPassengers(Lista, 3, id, nombre, apellido, precio, tipo, codigo, estado) != -1){
+                       ^~~~~
+..\src\TP2.c:46:23: note: each undeclared identifier is reported only once for each function it appears in
+14:41:28 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:46:23: error: 'Lista' undeclared (first use in this function)
+      if(addPassengers(Lista, 3, id, nombre, apellido, precio, tipo, codigo, estado) != -1){
+                       ^~~~~
+..\src\TP2.c:46:23: note: each undeclared identifier is reported only once for each function it appears in
+14:42:09 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:46:23: error: 'Lista' undeclared (first use in this function)
+      if(addPassengers(Lista, 3, id, nombre, apellido, precio, tipo, codigo, estado) != -1){
+                       ^~~~~
+..\src\TP2.c:46:23: note: each undeclared identifier is reported only once for each function it appears in
+14:42:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:3: error: 'Lista' undeclared (first use in this function)
+   Lista[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+   ^~~~~
+..\src\arrayPassenger.c:342:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\arrayPassenger.c:342:16: error: expected expression before '{' token
+   Lista[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                ^
+..\src\arrayPassenger.c: At top level:
+..\src\arrayPassenger.c:345:61: error: expected identifier or '(' before ',' token
+          {500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0}},
+                                                             ^
+..\src\arrayPassenger.c:346:60: error: expected identifier or '(' before '}' token
+       {600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0}};
+                                                            ^
+..\src\arrayPassenger.c:347:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+14:43:20 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+..\src\arrayPassenger.c: At top level:
+..\src\arrayPassenger.c:345:61: error: expected identifier or '(' before ',' token
+          {500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0}},
+                                                             ^
+..\src\arrayPassenger.c:346:60: error: expected identifier or '(' before '}' token
+       {600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0}};
+                                                            ^
+..\src\arrayPassenger.c:347:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+14:43:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+14:44:18 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+14:44:41 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+14:48:51 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+14:51:00 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+14:51:15 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:12: error: expected expression before '{' token
+  list[5] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^
+14:51:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c:340:6: error: conflicting types for 'altaFrozada'
+ void altaFrozada(ePasajero list[])
+      ^~~~~~~~~~~
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:21:6: note: previous declaration of 'altaFrozada' was here
+ void altaFrozada(ePasajero list[], int tam);
+      ^~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:12: error: expected expression before '{' token
+  list[5] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^
+14:51:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c:340:6: error: conflicting types for 'altaFrozada'
+ void altaFrozada(ePasajero* list)
+      ^~~~~~~~~~~
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:21:6: note: previous declaration of 'altaFrozada' was here
+ void altaFrozada(ePasajero list[], int tam);
+      ^~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:12: error: expected expression before '{' token
+  list[5] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^
+14:52:28 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+14:52:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},{200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},{400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0},{500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0},{600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0}};
+              ^
+14:54:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0};
+              ^
+14:54:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0}};
+              ^
+14:55:31 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0}};
+              ^
+14:56:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0};
+              ^
+14:57:35 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+In file included from ..\src\arrayPassenger.h:10:0,
+                 from ..\src\arrayPassenger.c:2:
+..\src\Pasajero.h:20:14: error: unknown type name 'ePasajero'
+ void Mostrar(ePasajero Listado[], int tam);
+              ^~~~~~~~~
+..\src\Pasajero.h:21:30: error: unknown type name 'ePasajero'
+ int BuscarPrimerEspacioLibre(ePasajero lista[], int tam);
+                              ^~~~~~~~~
+..\src\Pasajero.h:24:22: error: unknown type name 'ePasajero'
+ int buscarIndexPorId(ePasajero pArray[], int len, int id);
+                      ^~~~~~~~~
+..\src\Pasajero.h:27:22: error: unknown type name 'ePasajero'
+ void CalculosPasajes(ePasajero lista[], int tam);
+                      ^~~~~~~~~
+..\src\arrayPassenger.c: In function 'addPassengers':
+..\src\arrayPassenger.c:24:17: warning: implicit declaration of function 'BuscarPrimerEspacioLibre' [-Wimplicit-function-declaration]
+     int index = BuscarPrimerEspacioLibre(list, tam);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'printPassenger':
+..\src\arrayPassenger.c:57:4: warning: implicit declaration of function 'Mostrar' [-Wimplicit-function-declaration]
+    Mostrar(list, tam);
+    ^~~~~~~
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0};
+              ^
+14:58:07 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaFrozada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0};
+              ^
+14:59:07 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzara':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0};
+              ^
+14:59:31 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzara':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+14:59:53 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzara':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+..\src\arrayPassenger.c: At top level:
+..\src\arrayPassenger.c:347:2: error: expected identifier or '(' before '}' token
+ }}
+  ^
+15:00:01 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzara':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+..\src\arrayPassenger.c:346:5: error: expected declaration or statement at end of input
+     {600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0}};
+     ^
+15:00:07 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzara':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+15:02:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzara':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+..\src\arrayPassenger.c:348:12: warning: unused variable 'Lista' [-Wunused-variable]
+  ePasajero Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^~~~~
+15:03:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzara':
+..\src\arrayPassenger.c:341:1: error: number of arguments doesn't match prototype
+ {
+ ^
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:40:6: error: prototype declaration
+ void altaForzara(ePasajero list[], int tam);
+      ^~~~~~~~~~~
+..\src\arrayPassenger.c:348:12: warning: unused variable 'Lista' [-Wunused-variable]
+  ePasajero Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^~~~~
+15:03:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:348:12: warning: unused variable 'Lista' [-Wunused-variable]
+  ePasajero Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+15:04:13 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:348:2: warning: braces around scalar initializer
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+  ^~~~~~~~~
+..\src\arrayPassenger.c:348:2: note: (near initialization for 'Lista[0]')
+..\src\arrayPassenger.c:348:26: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                          ^~~
+..\src\arrayPassenger.c:348:26: note: (near initialization for 'Lista[0]')
+..\src\arrayPassenger.c:348:30: warning: excess elements in scalar initializer
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                              ^~~~~~
+..\src\arrayPassenger.c:348:30: note: (near initialization for 'Lista[0]')
+..\src\arrayPassenger.c:348:37: warning: excess elements in scalar initializer
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                     ^~~~~~~~~~
+..\src\arrayPassenger.c:348:37: note: (near initialization for 'Lista[0]')
+..\src\arrayPassenger.c:348:48: warning: excess elements in scalar initializer
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                                ^~~
+..\src\arrayPassenger.c:348:48: note: (near initialization for 'Lista[0]')
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:13:15: warning: excess elements in scalar initializer
+ #define MENOR 2
+               ^
+..\src\arrayPassenger.c:348:52: note: in expansion of macro 'MENOR'
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                                    ^~~~~
+..\src\arrayPassenger.h:13:15: note: (near initialization for 'Lista[0]')
+ #define MENOR 2
+               ^
+..\src\arrayPassenger.c:348:52: note: in expansion of macro 'MENOR'
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                                    ^~~~~
+..\src\arrayPassenger.c:348:58: warning: excess elements in scalar initializer
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                                          ^~~~~~~~
+..\src\arrayPassenger.c:348:58: note: (near initialization for 'Lista[0]')
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:16:16: warning: excess elements in scalar initializer
+ #define ACTIVO 1
+                ^
+..\src\arrayPassenger.c:348:67: note: in expansion of macro 'ACTIVO'
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                                                   ^~~~~~
+..\src\arrayPassenger.h:16:16: note: (near initialization for 'Lista[0]')
+ #define ACTIVO 1
+                ^
+..\src\arrayPassenger.c:348:67: note: in expansion of macro 'ACTIVO'
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                                                   ^~~~~~
+..\src\arrayPassenger.c:348:74: warning: excess elements in scalar initializer
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+                                                                          ^
+..\src\arrayPassenger.c:348:74: note: (near initialization for 'Lista[0]')
+..\src\arrayPassenger.c:349:26: warning: braces around scalar initializer
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                          ^
+..\src\arrayPassenger.c:349:26: note: (near initialization for 'Lista[1]')
+..\src\arrayPassenger.c:349:27: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                           ^~~
+..\src\arrayPassenger.c:349:27: note: (near initialization for 'Lista[1]')
+..\src\arrayPassenger.c:349:31: warning: excess elements in scalar initializer
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                               ^~~~~~~~
+..\src\arrayPassenger.c:349:31: note: (near initialization for 'Lista[1]')
+..\src\arrayPassenger.c:349:40: warning: excess elements in scalar initializer
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                        ^~~~~~~
+..\src\arrayPassenger.c:349:40: note: (near initialization for 'Lista[1]')
+..\src\arrayPassenger.c:349:48: warning: excess elements in scalar initializer
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                                ^~~
+..\src\arrayPassenger.c:349:48: note: (near initialization for 'Lista[1]')
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:14:16: warning: excess elements in scalar initializer
+ #define ADULTO 3
+                ^
+..\src\arrayPassenger.c:349:52: note: in expansion of macro 'ADULTO'
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                                    ^~~~~~
+..\src\arrayPassenger.h:14:16: note: (near initialization for 'Lista[1]')
+ #define ADULTO 3
+                ^
+..\src\arrayPassenger.c:349:52: note: in expansion of macro 'ADULTO'
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                                    ^~~~~~
+..\src\arrayPassenger.c:349:59: warning: excess elements in scalar initializer
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                                           ^~~~~~~~
+..\src\arrayPassenger.c:349:59: note: (near initialization for 'Lista[1]')
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:17:20: warning: excess elements in scalar initializer
+ #define ATERRIZADO 2
+                    ^
+..\src\arrayPassenger.c:349:68: note: in expansion of macro 'ATERRIZADO'
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                                                    ^~~~~~~~~~
+..\src\arrayPassenger.h:17:20: note: (near initialization for 'Lista[1]')
+ #define ATERRIZADO 2
+                    ^
+..\src\arrayPassenger.c:349:68: note: in expansion of macro 'ATERRIZADO'
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                                                    ^~~~~~~~~~
+..\src\arrayPassenger.c:349:79: warning: excess elements in scalar initializer
+                          {200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0},
+                                                                               ^
+..\src\arrayPassenger.c:349:79: note: (near initialization for 'Lista[1]')
+..\src\arrayPassenger.c:350:26: warning: braces around scalar initializer
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                          ^
+..\src\arrayPassenger.c:350:26: note: (near initialization for 'Lista[2]')
+..\src\arrayPassenger.c:350:27: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                           ^~~
+..\src\arrayPassenger.c:350:27: note: (near initialization for 'Lista[2]')
+..\src\arrayPassenger.c:350:31: warning: excess elements in scalar initializer
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                               ^~~~~~
+..\src\arrayPassenger.c:350:31: note: (near initialization for 'Lista[2]')
+..\src\arrayPassenger.c:350:38: warning: excess elements in scalar initializer
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                      ^~~~~~~
+..\src\arrayPassenger.c:350:38: note: (near initialization for 'Lista[2]')
+..\src\arrayPassenger.c:350:46: warning: excess elements in scalar initializer
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                              ^~
+..\src\arrayPassenger.c:350:46: note: (near initialization for 'Lista[2]')
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:12:14: warning: excess elements in scalar initializer
+ #define BEBE 1
+              ^
+..\src\arrayPassenger.c:350:49: note: in expansion of macro 'BEBE'
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                                 ^~~~
+..\src\arrayPassenger.h:12:14: note: (near initialization for 'Lista[2]')
+ #define BEBE 1
+              ^
+..\src\arrayPassenger.c:350:49: note: in expansion of macro 'BEBE'
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                                 ^~~~
+..\src\arrayPassenger.c:350:54: warning: excess elements in scalar initializer
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                                      ^~~~~~~~
+..\src\arrayPassenger.c:350:54: note: (near initialization for 'Lista[2]')
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:16:16: warning: excess elements in scalar initializer
+ #define ACTIVO 1
+                ^
+..\src\arrayPassenger.c:350:63: note: in expansion of macro 'ACTIVO'
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                                               ^~~~~~
+..\src\arrayPassenger.h:16:16: note: (near initialization for 'Lista[2]')
+ #define ACTIVO 1
+                ^
+..\src\arrayPassenger.c:350:63: note: in expansion of macro 'ACTIVO'
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                                               ^~~~~~
+..\src\arrayPassenger.c:350:70: warning: excess elements in scalar initializer
+                          {300,"Coty","Perez",80,BEBE,"abc100",ACTIVO,0}};
+                                                                      ^
+..\src\arrayPassenger.c:350:70: note: (near initialization for 'Lista[2]')
+..\src\arrayPassenger.c:348:13: warning: unused variable 'Lista' [-Wunused-variable]
+  ePasajero* Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+             ^~~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+15:04:29 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:348:12: warning: unused variable 'Lista' [-Wunused-variable]
+  ePasajero Lista[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^~~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+15:04:37 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:348:12: warning: unused variable 'List' [-Wunused-variable]
+  ePasajero List[3] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+15:05:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+15:06:25 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0};
+              ^
+15:06:38 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0};
+              ^
+15:06:55 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0}};
+              ^
+15:08:47 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110.80,MENOR,"abc102",ACTIVO,0}};
+              ^
+15:14:22 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+15:14:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+15:15:07 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,'Juan',"Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+..\src\arrayPassenger.c:342:20: warning: multi-character character constant [-Wmultichar]
+  list[tam] = {{100,'Juan',"Barberon",110,MENOR,"abc102",ACTIVO,0},
+                    ^~~~~~
+15:15:18 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+              ^
+15:15:24 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:7: error: expected expression before ']' token
+  list[] = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+       ^
+15:15:30 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:9: error: expected expression before '{' token
+  list = {{100,"Juan","Barberon",110,MENOR,"abc102",ACTIVO,0},
+         ^
+15:16:06 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100,"Juan","Barberon",110,"MENOR","abc102","ACTIVO",0},
+              ^
+15:16:48 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+              ^
+15:17:19 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+              ^
+15:17:32 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};
+              ^
+15:18:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+              ^
+15:19:36 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: error: expected expression before '{' token
+  list[0] = {100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+            ^
+15:19:52 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: error: expected expression before '{' token
+  list[0] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};
+            ^
+15:20:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: error: expected expression before '{' token
+  list[1] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};
+            ^
+15:21:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};
+              ^
+15:21:33 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};}
+              ^
+15:21:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}}};}
+              ^
+..\src\arrayPassenger.c: At top level:
+..\src\arrayPassenger.c:342:72: error: expected identifier or '(' before '}' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}}};}
+                                                                        ^
+15:21:56 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}}}
+              ^
+15:22:09 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}}
+              ^
+15:22:19 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+              ^
+15:23:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Juan" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};
+              ^
+15:23:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};
+              ^
+15:24:01 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0}};
+              ^
+15:24:11 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  list[tam] = {100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+              ^
+15:25:38 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:17: error: 'tam' undeclared (first use in this function)
+  ePasajero list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+                 ^~~
+..\src\arrayPassenger.c:342:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\arrayPassenger.c:342:78: error: expected '}' before ';' token
+  ePasajero list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+                                                                              ^
+..\src\arrayPassenger.c:342:12: warning: unused variable 'list' [-Wunused-variable]
+  ePasajero list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0};
+            ^~~~
+15:25:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:17: error: 'tam' undeclared (first use in this function)
+  ePasajero list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+                 ^~~
+..\src\arrayPassenger.c:342:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\arrayPassenger.c:342:12: warning: unused variable 'list' [-Wunused-variable]
+  ePasajero list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+15:25:52 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: warning: unused variable 'list' [-Wunused-variable]
+  ePasajero list[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+15:28:01 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:344:11: error: expected expression before '{' token
+  list[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+           ^
+..\src\arrayPassenger.c:342:12: warning: variable 'list' set but not used [-Wunused-but-set-variable]
+  ePasajero list[5];
+            ^~~~
+15:30:27 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:13: error: expected expression before '{' token
+  list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+             ^
+15:30:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:13: error: expected expression before '{' token
+  list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+             ^
+15:31:21 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:13: error: expected expression before '{' token
+  list[tam]= {100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+             ^
+15:31:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:11: error: incompatible types when assigning to type 'ePasajero {aka struct <anonymous>}' from type 'int'
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+           ^
+..\src\arrayPassenger.c:342:17: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                 ^
+..\src\arrayPassenger.c:342:25: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                         ^
+..\src\arrayPassenger.c:342:36: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                                    ^
+..\src\arrayPassenger.c:342:41: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                                         ^
+..\src\arrayPassenger.c:342:47: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                                               ^
+..\src\arrayPassenger.c:342:56: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                                                        ^
+..\src\arrayPassenger.c:342:63: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                                                               ^
+..\src\arrayPassenger.c:342:65: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  list[tam]= 100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0,
+                                                                 ^
+..\src\arrayPassenger.c:343:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+        ^
+..\src\arrayPassenger.c:343:17: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+                 ^
+..\src\arrayPassenger.c:343:25: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+                         ^
+..\src\arrayPassenger.c:343:29: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+                             ^
+..\src\arrayPassenger.c:343:36: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+                                    ^
+..\src\arrayPassenger.c:343:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+                                             ^
+..\src\arrayPassenger.c:343:56: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+                                                        ^
+..\src\arrayPassenger.c:343:58: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     200,"Manuel","Perez",105,ADULTO,"abc100",ATERRIZADO,0,
+                                                          ^
+..\src\arrayPassenger.c:344:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+        ^
+..\src\arrayPassenger.c:344:17: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+                 ^
+..\src\arrayPassenger.c:344:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+                           ^
+..\src\arrayPassenger.c:344:31: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+                               ^
+..\src\arrayPassenger.c:344:36: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+                                    ^
+..\src\arrayPassenger.c:344:45: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+                                             ^
+..\src\arrayPassenger.c:344:52: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+                                                    ^
+..\src\arrayPassenger.c:344:54: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     400,"Gaston","Alvarez",180,BEBE,"abc100",ACTIVO,0,
+                                                      ^
+..\src\arrayPassenger.c:345:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+        ^
+..\src\arrayPassenger.c:345:15: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+               ^
+..\src\arrayPassenger.c:345:23: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+                       ^
+..\src\arrayPassenger.c:345:26: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+                          ^
+..\src\arrayPassenger.c:345:31: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+                               ^
+..\src\arrayPassenger.c:345:40: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+                                        ^
+..\src\arrayPassenger.c:345:51: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+                                                   ^
+..\src\arrayPassenger.c:345:53: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     500,"Coty","Perez",90,BEBE,"abc100",ATERRIZADO,0,
+                                                     ^
+..\src\arrayPassenger.c:346:8: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0;
+        ^
+..\src\arrayPassenger.c:346:18: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0;
+                  ^
+..\src\arrayPassenger.c:346:28: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0;
+                            ^
+..\src\arrayPassenger.c:346:32: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0;
+                                ^
+..\src\arrayPassenger.c:346:38: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0;
+                                      ^
+..\src\arrayPassenger.c:346:47: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0;
+                                               ^
+..\src\arrayPassenger.c:346:54: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     600,"Ricardo","Alvarez",100,MENOR,"abc102",ACTIVO,0;
+                                                      ^
+..\src\arrayPassenger.c:346:54: warning: statement with no effect [-Wunused-value]
+15:33:19 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:13: error: expected expression before '{' token
+  list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+             ^
+15:34:30 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:13: error: expected expression before '{' token
+  list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+             ^
+15:34:32 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:13: error: expected expression before '{' token
+  list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+             ^
+15:35:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c:340:11: error: conflicting types for 'altaForzada'
+ ePasajero altaForzada(ePasajero* list, int tam)
+           ^~~~~~~~~~~
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:40:6: note: previous declaration of 'altaForzada' was here
+ void altaForzada(ePasajero* list, int tam);
+      ^~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:13: error: expected expression before '{' token
+  list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+             ^
+..\src\arrayPassenger.c:348:9: error: incompatible types when returning type 'ePasajero * {aka struct <anonymous> *}' but 'ePasajero {aka struct <anonymous>}' was expected
+  return list;
+         ^~~~
+..\src\arrayPassenger.c:349:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+15:36:50 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:348:9: error: incompatible types when returning type 'ePasajero * {aka struct <anonymous> *}' but 'ePasajero {aka struct <anonymous>}' was expected
+  return list;
+         ^~~~
+..\src\arrayPassenger.c:349:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+15:41:54 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c:340:34: error: parameter 'list' has just a forward declaration
+ ePasajero altaForzada(ePasajero* list; int tam)
+                                  ^~~~
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:3: error: 'list' undeclared (first use in this function)
+   list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+   ^~~~
+..\src\arrayPassenger.c:342:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+   list[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+              ^
+..\src\arrayPassenger.c:349:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+15:42:56 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c:340:29: error: parameter 'list' has just a forward declaration
+ void altaForzada(ePasajero* list; int tam)
+                             ^~~~
+..\src\arrayPassenger.c:340:6: error: conflicting types for 'altaForzada'
+ void altaForzada(ePasajero* list; int tam)
+      ^~~~~~~~~~~
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:40:11: note: previous declaration of 'altaForzada' was here
+ ePasajero altaForzada();
+           ^~~~~~~~~~~
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:343:2: error: 'list' undeclared (first use in this function)
+  list[tam][51]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+  ^~~~
+..\src\arrayPassenger.c:343:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\arrayPassenger.c:343:17: error: expected expression before '{' token
+  list[tam][51]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+                 ^
+..\src\arrayPassenger.c:349:9: warning: 'return' with a value, in function returning void
+  return list;
+         ^~~~
+..\src\arrayPassenger.c:340:6: note: declared here
+ void altaForzada(ePasajero* list; int tam)
+      ^~~~~~~~~~~
+15:43:34 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\Pasajero.c:8:
+..\src\arrayPassenger.h:40:29: error: parameter 'list' has just a forward declaration
+ void altaForzada(ePasajero* list; int tam);
+                             ^~~~
+15:44:17 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\Pasajero.c:8:
+..\src\arrayPassenger.h:40:29: error: parameter 'list' has just a forward declaration
+ void altaForzada(ePasajero* list; int tam);
+                             ^~~~
+15:44:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\Pasajero.c:8:
+..\src\arrayPassenger.h:40:29: error: parameter 'list' has just a forward declaration
+ void altaForzada(ePasajero* list; int tam);
+                             ^~~~
+15:44:36 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:40:29: error: parameter 'list' has just a forward declaration
+ void altaForzada(ePasajero* list; int tam);
+                             ^~~~
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:341:1: error: number of arguments doesn't match prototype
+ {
+ ^
+In file included from ..\src\arrayPassenger.c:2:0:
+..\src\arrayPassenger.h:40:6: error: prototype declaration
+ void altaForzada(ePasajero* list; int tam);
+      ^~~~~~~~~~~
+..\src\arrayPassenger.c:342:17: error: 'tam' undeclared (first use in this function)
+  ePasajero List[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+                 ^~~
+..\src\arrayPassenger.c:342:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\arrayPassenger.c:342:12: warning: unused variable 'List' [-Wunused-variable]
+  ePasajero List[tam]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+15:45:07 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\Pasajero.c:8:
+..\src\arrayPassenger.h:40:29: error: parameter 'list' has just a forward declaration
+ void altaForzada(ePasajero* list; int tam);
+                             ^~~~
+15:45:29 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: warning: unused variable 'List' [-Wunused-variable]
+  ePasajero List[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:46:50 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:50:23: error: 'Lista' undeclared (first use in this function)
+      if(addPassengers(Lista, 3, id, nombre, apellido, precio, tipo, codigo, estado) != -1){
+                       ^~~~~
+..\src\TP2.c:50:23: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP2.c:30:16: warning: unused variable 'List' [-Wunused-variable]
+      ePasajero List[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+                ^~~~
+15:46:50 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:50:23: error: 'Lista' undeclared (first use in this function)
+      if(addPassengers(Lista, 3, id, nombre, apellido, precio, tipo, codigo, estado) != -1){
+                       ^~~~~
+..\src\TP2.c:50:23: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP2.c:30:16: warning: unused variable 'List' [-Wunused-variable]
+      ePasajero List[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+                ^~~~
+15:47:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:30:16: warning: unused variable 'List' [-Wunused-variable]
+      ePasajero List[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+                ^~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:47:19 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:47:24 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+15:47:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: warning: unused variable 'List' [-Wunused-variable]
+  ePasajero List[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+..\src\arrayPassenger.c:347:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:14:39 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: warning: unused variable 'List' [-Wunused-variable]
+  ePasajero List[5]= {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:15:47 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: warning: unused variable 'List' [-Wunused-variable]
+  ePasajero List[5] = {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:16:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:12: warning: unused variable 'pArray' [-Wunused-variable]
+  ePasajero pArray[5] = {{100 ,"Jean" ,"Barberon",110 ,MENOR,"abc102",ACTIVO,0},
+            ^~~~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:17:13 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:91:6: error: too few arguments to function 'altaForzada'
+      altaForzada();
+      ^~~~~~~~~~~
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\TP2.c:12:
+..\src\arrayPassenger.h:38:6: note: declared here
+ void altaForzada(ePasajero pArray[]);
+      ^~~~~~~~~~~
+16:17:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:91:6: error: too few arguments to function 'altaForzada'
+      altaForzada();
+      ^~~~~~~~~~~
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\TP2.c:12:
+..\src\arrayPassenger.h:38:6: note: declared here
+ void altaForzada(ePasajero pArray[]);
+      ^~~~~~~~~~~
+16:19:27 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+In file included from ..\src\Pasajero.c:8:0:
+..\src\Pasajero.h:20:14: error: unknown type name 'ePasajero'
+ void Mostrar(ePasajero Listado[], int tam);
+              ^~~~~~~~~
+..\src\Pasajero.h:21:30: error: unknown type name 'ePasajero'
+ int BuscarPrimerEspacioLibre(ePasajero lista[], int tam);
+                              ^~~~~~~~~
+..\src\Pasajero.h:24:22: error: unknown type name 'ePasajero'
+ int buscarIndexPorId(ePasajero pArray[], int len, int id);
+                      ^~~~~~~~~
+..\src\Pasajero.h:27:22: error: unknown type name 'ePasajero'
+ void CalculosPasajes(ePasajero lista[], int tam);
+                      ^~~~~~~~~
+16:20:02 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:91:6: error: too few arguments to function 'altaForzada'
+      altaForzada();
+      ^~~~~~~~~~~
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\TP2.c:12:
+..\src\arrayPassenger.h:38:6: note: declared here
+ void altaForzada(ePasajero pArray[]);
+      ^~~~~~~~~~~
+16:20:46 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:14: error: expected expression before '{' token
+  pArray[5] = {{100 ,"Jean" ,"Barberon",110 ,1,"abc102",1,0},
+              ^
+16:21:17 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:91:6: error: too few arguments to function 'altaForzada'
+      altaForzada();
+      ^~~~~~~~~~~
+In file included from ..\src\Pasajero.h:16:0,
+                 from ..\src\TP2.c:12:
+..\src\arrayPassenger.h:38:6: note: declared here
+ void altaForzada(ePasajero pArray[]);
+      ^~~~~~~~~~~
+16:23:20 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'altaForzada':
+..\src\arrayPassenger.c:342:24: warning: missing braces around initializer [-Wmissing-braces]
+  ePasajero pArray[1] = {100 ,"Jean" ,"Barberon",110 ,1,"abc102",1,0};
+                        ^
+..\src\arrayPassenger.c:342:24: note: (near initialization for 'pArray')
+..\src\arrayPassenger.c:342:12: warning: unused variable 'pArray' [-Wunused-variable]
+  ePasajero pArray[1] = {100 ,"Jean" ,"Barberon",110 ,1,"abc102",1,0};
+            ^~~~~~
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:06:32 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:07:10 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+17:08:16 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+Info: Nothing to build for TP2
+17:13:24 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+Info: Nothing to build for TP2
+17:16:06 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:16:11 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+17:17:50 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:18:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+17:22:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+17:52:57 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+18:26:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'modificarPasajero':
+..\src\arrayPassenger.c:263:9: warning: variable 'retorno' set but not used [-Wunused-but-set-variable]
+     int retorno;
+         ^~~~~~~
+..\src\arrayPassenger.c: At top level:
+..\src\arrayPassenger.c:334:5: error: expected identifier or '(' before 'if'
+     if(retorno == 0)
+     ^~
+..\src\arrayPassenger.c:338:4: error: expected identifier or '(' before 'return'
+    return retorno;
+    ^~~~~~
+..\src\arrayPassenger.c:339:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+..\src\arrayPassenger.c: In function 'modificarPasajero':
+..\src\arrayPassenger.c:333:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+18:28:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'modificarPasajero':
+..\src\arrayPassenger.c:291:33: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     strcpy(lista[i].name,nombreACambiar);
+                                 ^
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+18:28:17 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'modificarPasajero':
+..\src\arrayPassenger.c:291:34: error: 'i' undeclared (first use in this function)
+                     strcpy(lista[i].name,nombreACambiar);
+                                  ^
+..\src\arrayPassenger.c:291:34: note: each undeclared identifier is reported only once for each function it appears in
+18:30:38 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+..\src\arrayPassenger.c: In function 'modificarPasajero':
+..\src\arrayPassenger.c:386:1: error: expected declaration or statement at end of input
+ }
+ ^
+..\src\arrayPassenger.c:386:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+..\src\arrayPassenger.c:340:6: warning: 'altaForzada' defined but not used [-Wunused-function]
+ void altaForzada(ePasajero* Listado){
+      ^~~~~~~~~~~
+18:30:59 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+18:33:04 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+18:35:14 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+Info: Nothing to build for TP2
+18:37:24 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+Info: Nothing to build for TP2
+18:38:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:39:01 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+18:41:02 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:41:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+18:42:10 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+18:45:37 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 
+Info: Nothing to build for TP2
+18:50:19 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pasajero.o" "..\\src\\Pasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\arrayPassenger.o" "..\\src\\arrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\Input.o" "src\\Pasajero.o" "src\\TP2.o" "src\\arrayPassenger.o" 

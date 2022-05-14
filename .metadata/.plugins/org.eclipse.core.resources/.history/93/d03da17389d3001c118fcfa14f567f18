@@ -1,0 +1,25 @@
+/*
+ * Input.h
+ *
+ *  Created on: 11 may 2022
+ *      Author: Compumar
+ */
+
+#ifndef INPUT_H_
+#define INPUT_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+float IngresarFlotante(char mensaje[]);
+int IngresarEntero(char mensaje[]);
+int getString(char cadena[], char mensaje[], int tam);
+int enteroValidado ( char msj[], char msjError[], int min , int max);
+float flotanteValidado ( char msj[], char msjError[], float min , float max);
+char IngreseCaracter(char mensaje[]);
+
+
+
+#endif /* INPUT_H_ */

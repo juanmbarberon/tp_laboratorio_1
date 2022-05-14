@@ -1,0 +1,28 @@
+/*
+ * Pasajero.h
+ *
+ *  Created on: 11 may 2022
+ *      Author: Compumar
+ */
+
+#ifndef PASAJERO_H_
+#define PASAJERO_H_
+
+struct{
+    int id;
+    char name[51];
+    char lastName[51];
+    float price;
+    int typePassenger;
+    char flyCode[10];
+    int statusFligth;
+    int isEmpty;
+}typedef ePasajero;
+
+void Mostrar(ePasajero Listado);
+int IngresarPasajro(ePasajero* Listado, int tam, int id, char name[], char lastName[], float price, int typePassenger, char flyCode[]);
+void InicializarListaPasajeros(ePasajero lista[], int tam);
+int BuscarPrimerEspacioLibre(ePasajero lista[], int tam);
+
+
+#endif /* PASAJERO_H_ */
